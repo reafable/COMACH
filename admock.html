@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="fonts/">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>UST COMACH | Hello, [].</title>
+</head>
+
+<body>
+
+    <ul id="slide-out" class="side-nav fixed z-depth-2">
+        <li class="center no-padding">
+            <div class="green lighten-4 white-text" style="height: 180px;">
+                <div class="row">
+                    <img style="margin-top: 5%;" width="100" height="100" src="imgs/COMACH-LOGO_vectorized-shadow.png" class="circle responsive-img" />
+
+                    <p style="margin-top: -10%;">
+                        Admin Name
+                    </p>
+                </div>
+            </div>
+        </li>
+
+        <li id="dash_dashboard"><a class="waves-effect" href="#!"><b>Dashboard</b></a></li>
+
+        <ul class="collapsible" data-collapsible="accordion">
+            <li id="dash_users">
+                <div id="dash_users_header" class="collapsible-header waves-effect"><b>Users</b></div>
+                <div id="dash_users_body" class="collapsible-body">
+                    <ul>
+                        <li id="users_seller">
+                            <a class="waves-effect" style="text-decoration: none;" href="#!">Members</a>
+                        </li>
+
+                        <li id="users_customer">
+                            <a class="waves-effect" style="text-decoration: none;" href="#!">Customer</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li id="dash_events">
+                <div id="dash_events_header" class="collapsible-header waves-effect"><b>Events</b></div>
+                <div id="dash_events_body" class="collapsible-body">
+                    <ul>
+                        <li id="brands_brand">
+                            <a class="waves-effect" style="text-decoration: none;" href="#!">Create</a>
+                        </li>
+
+                        <li id="brands_sub_brand">
+                            <a class="waves-effect" style="text-decoration: none;" href="#!">View</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li id="dash_products">
+                <div id="dash_products_header" class="collapsible-header waves-effect"><b>Products</b></div>
+                <div id="dash_products_body" class="collapsible-body">
+                    <ul>
+                        <li id="products_product">
+                            <a class="waves-effect" style="text-decoration: none;" href="adprodmanmock.html">Products</a>
+                            <a class="waves-effect" style="text-decoration: none;" href="#!">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        
+        <li id="dash_dashboard"><a class="waves-effect" href="adlogin.html"><b>Logout</b></a></li>
+    </ul>
+
+    <header class="admin">
+        <ul class="dropdown-content" id="user_dropdown">
+            <li><a class="green-text" href="adlogin.html">Logout</a></li>
+        </ul>
+
+        <nav class="green lighten-4" role="navigation">
+            <div class="nav-wrapper">
+                <a data-activates="slide-out" class="button-collapse show-on-" href="#!"><i class="material-icons burger-comach">menu</i></a>
+
+                <!--<ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class='right dropdown-button' href='' data-activates='user_dropdown'><i class=' material-icons'>account_circle</i></a>
+                    </li>
+                </ul>-->
+
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </nav>
+
+        <nav>
+            <div class="nav-wrapper green lighten-1">
+                <a style="margin-left: 20px;" class="breadcrumb" href="#!">Admin</a>
+                <a class="breadcrumb" href="#!">Index</a>
+
+                <div style="margin-right: 20px;" id="timestamp" class="right"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="admin">
+        <div class="row">
+            <div class="col s6">
+                <div style="padding: 35px;" align="center" class="card">
+                    <div class="row">
+                        <div class="left card-title">
+                            <b>User Management</b>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/resume.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Members</h5></span>
+                            </div>
+                        </a>
+                        <div class="col s1">&nbsp;</div>
+                        <div class="col s1">&nbsp;</div>
+
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/multiple-users-silhouette.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Customers</h5></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6">
+                <div style="padding: 35px;" align="center" class="card">
+                    <div class="row">
+                        <div class="left card-title">
+                            <b>Product Management</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="adprodmanmock.html">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/casual-t-shirt-.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Products</h5></span>
+                            </div>
+                        </a>
+
+                        <div class="col s1">&nbsp;</div>
+                        <div class="col s1">&nbsp;</div>
+
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/2-squares.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Categories</h5></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s6">
+                <div style="padding: 35px;" align="center" class="card">
+                    <div class="row">
+                        <div class="left card-title">
+                            <b>Event Management</b>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/monthly-calendar.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Events</h5></span>
+                            </div>
+                        </a>
+
+                        <div class="col s1">&nbsp;</div>
+                        <div class="col s1">&nbsp;</div>
+
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/2-squares.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Categories</h5></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6">
+                <div style="padding: 35px;" align="center" class="card">
+                    <div class="row">
+                        <div class="left card-title">
+                            <b>Filler</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/2-squares.png" class="responsive-img" /><br>
+                                <span class="green-text text-lighten-1"><h5>Filler</h5></span>
+                            </div>
+                        </a>
+                        <div class="col s1">&nbsp;</div>
+                        <div class="col s1">&nbsp;</div>
+
+                        <a href="#!">
+                            <div style="padding: 30px;" class="grey lighten-3 col s5 waves-effect">
+                                <img src="imgs/2-squares.png" class="responsive-img" /><br>
+                                <span class="truncate green-text text-lighten-1"><h5>Filler</h5></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="green lighten-4 page-footer admin">
+        <div class="footer-copyright green lighten-2">
+            <div class="container">
+                <span>Made By <a style='font-weight: bold;' href="#!">Eunoia</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

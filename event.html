@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="fonts/">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>UST COMACH</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo"><span class="logobold">UST </span><span class="logosplit">|</span> COMACH</a>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons burger-comach">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#" class="active">EVENTS | MERCH</a></li>
+                    <!--<li><a href="merch.html">MERCH</a></li>-->
+                    <!--<li><a href="#loginform">LOG IN</a></li>-->
+                </ul>
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#" class="active">EVENTS | MERCH</a></li>
+                    <!--<li><a href="merch.html">MERCH</a></li>-->
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#loginform">LOG IN</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col s12">
+        <nav>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="col s12 m12 l8">
+                            <form>
+                                <div class="input-field sagashite">
+                                    <input id="search" type="search" required>
+                                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                    <i class="material-icons">close</i>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col s4">
+                            <ul>
+                                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Categories<i class="material-icons right">arrow_drop_down</i></a></li>
+                                <li><a href="#loginform">Log In</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Events</a></li>
+            <li><a href="#!">Shirts</a></li>
+            <li><a href="#!">Lanyards</a></li>
+        </ul>
+
+
+    </div>
+
+    <div id="loginform" class="modal">
+        <div class="modal-content">
+            <h4>Log In</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row modal-form-row">
+                        <div class="input-field col s12">
+                            <input id="username" type="text" class="validate">
+                            <label for="username">Username</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a class=" modal-action modal-close waves-effect waves-green btn-flat" href="eventloginmock.html">Log In</a>
+            <a class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+        </div>
+    </div>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/1">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Lorem ipsum dolor sit amet!</h3>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/2">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Lorem ipsum dolor.</h3>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/3">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="http://lorempixel.com/580/250/nature/4">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Lorem ipsum.</h3>
+                    <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <div class="col s4">
+                <a class='dropdown-button btn' href='#' data-activates='dropsort'>Sort by</a>
+                <ul id='dropsort' class='dropdown-content'>
+                    <li><a href="#!">Date</a></li>
+                    <li><a href="#!">Location</a></li>
+                    <li><a href="#!">Price</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col l9 blue">
+            <div class="col s12 m4 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://lorempixel.com/output/business-h-c-200-290-9.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Event<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">View full event detail</a></p>
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title orange-text"><p><a href="#">Go to event</a></p></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Event<i class="material-icons right">close</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veritatis, eaque. Cupiditate ratione temporibus earum quisquam sunt saepe officiis repudiandae accusamus, minus ea consequatur, voluptatibus atque et a vitae dolore illum eveniet culpa. Distinctio maiores facilis expedita autem quos, provident, magni velit laboriosam debitis tempora reprehenderit sint aut illum nemo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://lorempixel.com/output/business-h-c-200-290-10.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Event<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">View full event detail</a></p>
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title orange-text"><p><a href="#">Go to event</a></p></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Event<i class="material-icons right">close</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime eligendi, quibusdam tempore reprehenderit consectetur atque ipsam! Neque, nulla reiciendis dicta in est veritatis debitis nihil id earum, assumenda cumque quos a fugit quidem nostrum tempore repellat ea eius quis, explicabo. Suscipit vero est ullam aliquam, eum itaque libero numquam veniam aut, nulla repellat officiis ea, eligendi adipisci distinctio at tempora, dolorum culpa labore. Autem recusandae tenetur labore assumenda itaque porro nobis mollitia, illum quod architecto!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://lorempixel.com/output/business-h-c-200-290-1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Event<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">View full event detail</a></p>
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title orange-text"><p><a href="#">Go to event</a></p></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Event<i class="material-icons right">close</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus reprehenderit impedit aspernatur repudiandae, debitis rem similique adipisci assumenda. Doloribus repudiandae cumque neque laboriosam vero deserunt ea, beatae laudantium excepturi cupiditate delectus, soluta modi numquam! Nobis voluptate ut doloremque, aspernatur unde atque a architecto necessitatibus. Debitis iste, voluptate consequatur quibusdam assumenda aliquam sequi, unde ducimus deleniti quidem ab error similique illo!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="http://lorempixel.com/output/business-h-c-200-290-2.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Event<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">View full event detail</a></p>
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title orange-text"><p><a href="#">Go to event</a></p></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Event<i class="material-icons right">close</i></span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint neque, reiciendis illo nostrum ratione exercitationem minus earum voluptatum, quaerat qui. Architecto veniam, officia at iure. Odit quisquam praesentium et nobis in dignissimos consequatur obcaecati delectus totam temporibus, dolorum facere fuga quod accusantium voluptas, rerum corporis repellat deserunt magnam laborum laudantium. Minus sunt quidem eaque, ea voluptas dolorum expedita fugit perspiciatis. Qui fuga perferendis iusto repellendus vero soluta rerum ex incidunt aliquid, similique possimus expedita provident quaerat molestias, fugit optio, nobis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l3 green">
+            <h4>PROMOTIONS/MISC</h4>
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">PROMO PROMO</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dicta quae blanditiis amet voluptatum praesentium.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">link</a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="card blue-grey darken-3">
+                <div class="card-content white-text">
+                    <span class="card-title">POROROMO</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia reiciendis nostrum deserunt praesentium qui, aut? Delectus atque dolor ducimus saepe nemo repudiandae itaque quae nihil.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">link</a>
+                </div>
+            </div>
+            <div class="card blue-grey lighten-3">
+                <div class="card-content white-text">
+                    <span class="card-title">POPOROROMO</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nobis voluptas minima commodi, ullam amet tempore unde error aliquid, esse dolorem fugiat quos at a expedita hic nihil corporis molestiae.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">link</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
